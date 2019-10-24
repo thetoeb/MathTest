@@ -287,7 +287,7 @@ namespace MathResolver
             var b = s.ToString();
 
             var result = string.Empty;
-            for (var i = 0l; i < integer / block; i++)
+            for (var i = 0; i < integer / block; i++)
             {
                 result += b;
             }
@@ -305,7 +305,7 @@ namespace MathResolver
 
                 b = s.ToString();
 
-                for (var i = 0l; i < decimals / block; i++)
+                for (var i = 0; i < decimals / block; i++)
                 {
                     result += b;
                 }

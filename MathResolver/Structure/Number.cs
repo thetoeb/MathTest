@@ -44,7 +44,7 @@ namespace MathResolver.Structure
             var startIndex = 0;
             var endingZeros = 0;
             var countZeros = true;
-            var floatingPointIndex = -1l;
+            long floatingPointIndex = -1;
             foreach (var c in number)
             {
                 if (char.IsNumber(c))

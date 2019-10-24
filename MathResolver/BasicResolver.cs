@@ -304,7 +304,6 @@ namespace MathResolver
                 return GetSubs();
 
             var subs = 0;
-            var plain = true;
             var currentExpression = string.Empty;
             var result = new List<SubExpression>();
             for (var i = 0; i < ExpressionString.Length; i++)

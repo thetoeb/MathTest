@@ -108,6 +108,8 @@ namespace ResolverTest
             }
 
             _graph = AddGeometrytoCanvas(grp, c, 1, Brushes.Crimson);
+            c.InvalidateVisual();
+            c.UpdateLayout();
         }
 
         private void DrawAxis(Canvas c)
